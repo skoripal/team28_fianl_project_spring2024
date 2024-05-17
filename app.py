@@ -33,4 +33,4 @@ if st.button('Predict'):
 
     response = response.json()
     prediction = response.get('prediction')
-    st.write(f'The predicted Policy Charges is: ${prediction:,}')
+    st.write(f'The predicted Policy Charges is: ${prediction}')
