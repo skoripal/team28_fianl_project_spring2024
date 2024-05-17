@@ -4,7 +4,7 @@
     "Children": [0, 10],
     "Region": [1, 4],
     "Spouse": [0, 1],
-    "MedicalID": [1, 1400],
+    "MedicalId": [1, 1400],
     "BMI": [1.0, 60.0],
     "Smoker": [0, 1],
     "Drinker": [0,1]
