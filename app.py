@@ -26,7 +26,7 @@ if st.button('Predict'):
 
     payload = json.dumps(options)
     response = requests.post(
-        url=f"http://45.55.203.144:3333/docs/",
+        url=f"http://45.55.203.144:3333/",
         data=payload,
         headers={"Content-Type": "application/json"},
     )
