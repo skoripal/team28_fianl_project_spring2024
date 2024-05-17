@@ -28,8 +28,7 @@ if st.button('Predict'):
             headers={"Content-Type": "application/json"},
         )
         response_data = response.json()
-
-        # Check if 'prediction' is in the response and handle accordingly
+        print(response_data)
         if 'prediction' in response_data:
             prediction = response_data['prediction']
             st.write(f'The predicted Policy Charges is: ${prediction:,}')
